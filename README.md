@@ -1,3 +1,22 @@
+# To clone and run follow 
+* Create an python environment and activate the enviroment 
+    > pip install Django==3.2 
+
+    > pip install django-sockpuppet
+
+    > pip install django-sockpuppet[lxml]
+
+    > python manage.py initial_sockpuppet
+        If error then :  
+
+        sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
+
+    > python manage.py runserver 8010
+
+
+
+# New django project
+
 ### Installation 
 
 * Reference
