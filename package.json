@@ -1,0 +1,22 @@
+{
+  "name": "sockpupetapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "watch": "webpack --watch --info-verbosity verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "glob": "^7.2.0",
+    "sockpuppet-js": "^0.6.0",
+    "stimulus": "^3.0.1",
+    "stimulus_reflex": "^3.5.0-pre5",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
+  }
+}
