@@ -6,12 +6,13 @@
 
     > pip install django-sockpuppet[lxml]
 
-    > python manage.py initial_sockpuppet
-        If error then :  
+    > python manage.py runserver 8010
+
+    > if you are getting error of some sort after running the below and run again 
 
         sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
 
-    > python manage.py runserver 8010
+    
 
 
 
