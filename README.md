@@ -24,10 +24,16 @@
         
         My solution to this was from http://npm.github.io/installation-setup-docs/installing/a-note-on-permissions.html
         
-> npm config get prefix - I got /usr/local
+> npm config get prefix
+        
+        I got /usr/local
+
 > sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
+        
+        Change the permission of the folders specified in the commans
 
 > python manage.py generate_reflex home counter_reflex
+        
         This will create the required files necessary 
 
 
